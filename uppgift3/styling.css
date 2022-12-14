@@ -1,0 +1,33 @@
+body {
+    height: 100vh; /* Lika stor som skärmen */ 
+    display: flex; /* lägger till flex */ 
+    flex-direction: column; /* Vrider på allt från rows */ 
+}
+#middle { /* lägger till en mitten där jag kan "vända" tillbaka mitten till rows */ 
+    flex: 3;
+    display: flex; /* ovan not gör att jag måste ha flex igen */ 
+    flex-direction: row;
+}
+#blue {
+    background-color: blue;
+    flex: 1;
+    
+}
+#yellow{
+    background-color: yellow;
+    flex: 1;
+}
+#green {
+    background-color: green;
+    flex: 1;
+}
+#black {
+    background-color: black;
+    flex: 1;
+}
+#grey {
+    background-color: grey;
+    flex: 0.5;
+}
+
+/* storlekarna och färg säger sig själv */ 
